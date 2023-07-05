@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: cornflowerblue;
+            margin: 0px;
+        }
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: azure;
+            padding: 5px;
+            box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.452);
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: cadetblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        article {
+            background-color: beige;
+        }
+        article > aside {
+            background-color: blanchedalmond;
+        }
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+        }
+        footer > p {
+            margin: 0px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">a</a>
+            <a href="#">a</a>
+            <a href="#">a</a>
+            <a href="#">a</a>
+            <a href="#">a</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>
+                    Notícias novas!
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, vitae architecto! Quibusdam placeat ipsa harum molestiae illo id magnam, porro quasi odit ipsum, consequuntur, libero architecto ad? Veniam, animi iste.
+                </p>
+                <aside>
+                    <p>Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados!</p>
+    </footer>
+</body>
+</html>
